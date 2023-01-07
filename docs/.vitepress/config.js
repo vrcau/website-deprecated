@@ -3,6 +3,12 @@ export default {
     title: "VRChat Aerospace University",
     descrption: "VRChat",
     lastUpdated: true,
+    head: [
+        ['script', {
+            defer: '',
+            src: '/_vercel/insights/script.js'
+        }]
+    ],
     themeConfig: {
         logo: "/VAU.svg",
         nav: nav(),
@@ -100,13 +106,14 @@ function airportSidebar() {
             text: 'ZVAU',
             collapsible: true,
             items: [{
-                text: 'ZVAU-ADC 机场场图',
-                link: '/airport/zvau/ZVAU-ADC'
-            },
-            {
-                text: 'ZVAU-IAC-ILS/DME 10R 仪表进近图',
-                link: '/airport/zvau/ZVAU-IAC-ILS&DME-10R'
-            }]
+                    text: 'ZVAU-ADC 机场场图',
+                    link: '/airport/zvau/ZVAU-ADC'
+                },
+                {
+                    text: 'ZVAU-IAC-ILS/DME 10R 仪表进近图',
+                    link: '/airport/zvau/ZVAU-IAC-ILS&DME-10R'
+                }
+            ]
         }
     ]
 }
