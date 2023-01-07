@@ -2,6 +2,7 @@ export default {
     lang: 'zh-cn',
     title: "VRChat Aerospace University",
     descrption: "VRChat",
+    lastUpdated: true,
     themeConfig: {
         logo: "/VAU.svg",
         nav: nav(),
@@ -14,6 +15,10 @@ export default {
         footer: {
             message: '在 MIT 许可证下发布',
             copyright: 'Copyright © 2022-2023 VRChat Aerospace University'
+        },
+        editLink: {
+            pattern: 'https://github.com/Misaka-L/vau-web/edit/main/docs/:path',
+            text: '在 Github 编辑此页'
         }
     },
 };

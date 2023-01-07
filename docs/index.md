@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始飞行
-      link: /airport/zvau
+      link: /airport/
     - theme: alt
       text: 了解更多
       link: /guide/about

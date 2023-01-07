@@ -1,0 +1,11 @@
+.VPContent.is-home {
+    background-image: url("/home/02.png");
+}
+
+.VPHome {
+    background: linear-gradient(175deg,
+            var(--vp-c-bg),
+            transparent 70%);
+    backdrop-filter: blur(0.1rem);
+    -webkit-backdrop-filter: blur(0.1rem);
+}
