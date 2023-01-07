@@ -29,7 +29,7 @@ function nav() {
             link: "/guide/about",
         },
         {
-            text: "机场",
+            text: "AIS",
             link: "/airport/",
         },
         {
@@ -52,7 +52,7 @@ function socialLinks() {
             icon: {
                 svg: '<svg t="1673088362735" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5155" width="64" height="64"><path d="M797.75 525.32c25.21-7.79 54.41-34.38 68.71-58q19.71-32.88 19.71-74 0-75.46-44-116.57-40.74-36.62-113.62-36.62H462.61L325.71 675h-2.1l-136.9-434.9H98l177.42 533.57h98.48l145.81-438.53v438.53h76.84V556.2H718c3.73 0 7.31 0.14 10.78 0.38l112 217.09h85.06zM718 481.47H596.55V314.83H718q47.94 0 69 19.43Q808.68 353 808.67 397q0 40.35-21.67 62.77-24.3 21.72-69 21.7z" p-id="5156"></path></svg>',
             },
-            link: "https://vrchat.com/home/group/grp_a932648a-fd30-4150-a59d-a15d210cc195",
+            link: "https://vrc.group/VAU.3770",
         },
         {
             icon: {
@@ -67,9 +67,14 @@ function guideSidebar() {
     return [{
         text: '指南',
         items: [{
-            text: '关于',
-            link: '/guide/about'
-        }]
+                text: '开始飞行',
+                link: '/guide/getting-started'
+            },
+            {
+                text: '关于',
+                link: '/guide/about'
+            }
+        ]
     }]
 }
 
@@ -85,10 +90,23 @@ function v320neoSidebar() {
 
 function airportSidebar() {
     return [{
-        text: 'ZVAU',
-        items: [{
-            text: '总则',
-            link: '/airport/zvau/zvau'
-        }, ]
-    }]
+            text: 'Aeronautical Information Services',
+            items: [{
+                text: '简介',
+                link: '/airport/'
+            }]
+        },
+        {
+            text: 'ZVAU',
+            collapsible: true,
+            items: [{
+                text: 'ZVAU-ADC 机场场图',
+                link: '/airport/zvau/ZVAU-ADC'
+            },
+            {
+                text: 'ZVAU-IAC-ILS/DME 10R 仪表进近图',
+                link: '/airport/zvau/ZVAU-IAC-ILS&DME-10R'
+            }]
+        }
+    ]
 }
