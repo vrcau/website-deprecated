@@ -1,0 +1,20 @@
+{
+  "name": "vrc-aerospace-university-web",
+  "version": "1.0.0",
+  "description": "VRChat Aerospace University Website",
+  "main": "index.js",
+  "author": "VRChat Aerospace University",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.35",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "jslint": "^0.12.1"
+  }
+}
