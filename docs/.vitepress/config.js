@@ -26,7 +26,7 @@ export default {
 function nav() {
     return [{
             text: "指南",
-            link: "/guide/about",
+            link: "/guide/getting-started",
         },
         {
             text: "AIS",
