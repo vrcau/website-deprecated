@@ -1,3 +1,10 @@
+import {
+    v320neoSidebar
+} from './sidebars/v320neo/v320neo-sidebar'
+import {
+    aisSiderbar
+} from './sidebars/ais/ais-sidebar'
+
 export default {
     lang: 'zh-cn',
     title: "VRChat Aerospace University",
@@ -16,7 +23,7 @@ export default {
         sidebar: {
             '/guide/': guideSidebar(),
             '/v320neo/': v320neoSidebar(),
-            '/airport/': airportSidebar()
+            '/airport/': aisSiderbar()
         },
         footer: {
             message: '在 MIT 许可证下发布',
@@ -82,38 +89,4 @@ function guideSidebar() {
             }
         ]
     }]
-}
-
-function v320neoSidebar() {
-    return [{
-        text: 'Guide',
-        items: [{
-            text: '简介',
-            link: '/v320neo/introduce'
-        }]
-    }]
-}
-
-function airportSidebar() {
-    return [{
-            text: 'Aeronautical Information Services',
-            items: [{
-                text: '简介',
-                link: '/airport/'
-            }]
-        },
-        {
-            text: 'ZVAU',
-            collapsible: true,
-            items: [{
-                    text: 'ZVAU-ADC 机场场图',
-                    link: '/airport/zvau/ZVAU-ADC'
-                },
-                {
-                    text: 'ZVAU-IAC-ILS/DME 10R 仪表进近图',
-                    link: '/airport/zvau/ZVAU-IAC-ILS&DME-10R'
-                }
-            ]
-        }
-    ]
 }
