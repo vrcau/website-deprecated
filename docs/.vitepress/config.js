@@ -14,6 +14,10 @@ export default {
         ['script', {
             defer: '',
             src: '/_vercel/insights/script.js'
+        }],
+        ['meta', {
+            name: 'google-site-verification',
+            content: 'hagVbuxgC0yWzIxY53LQgx64neNoygvsQqR6rlJVYfI'
         }]
     ],
     themeConfig: {
