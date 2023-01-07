@@ -3,3 +3,4 @@ man/.vuepress/dist
 yarn.lock
 pnpm-lock.yaml
 .vercel
+cache
