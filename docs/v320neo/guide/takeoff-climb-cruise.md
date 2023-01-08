@@ -4,11 +4,11 @@
 **For V320neo Use Only**
 :::
 ## 起飞
-![起飞](/v320neo/guide/takeoff.jpg)
+![起飞](/v320neo/guide/takeoff.webp)
 
 进入并对正跑道后，将飞机完全刹停。并观察 ECAM 指示将推力手柄移动到 50% N1 的位置。待发动机在 50% N1 稳定后，将推力手柄推至 TOGA 卡位。  
 在滑跑过程中，100kt 前保持侧杆低头，100kt 后缓慢将侧杆移至中立位，到达 160kt 时缓慢拉起侧杆保持大约 3° 每秒的速率抬轮到 15° 的姿态。
 
-![抬轮](/v320neo/guide/rotate.jpg)
+![抬轮](/v320neo/guide/rotate.webp)
 
 当飞机建立正上升后，选择 Gear 功能（在桌面模式，按 `G`）收上起落架

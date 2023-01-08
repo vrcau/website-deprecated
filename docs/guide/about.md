@@ -1,5 +1,5 @@
 # 关于 VRChat Aerospace University
-![合影](/vau/01.png)
+![合影](/vau/01.webp)
 
 ---
 > 整个 VRC 飞行圈（包括国外）其实很小很小，大家抬头不见低头见。所以请尊重每一位你见到的国内外飞友，保持良好的 Airmanship。
