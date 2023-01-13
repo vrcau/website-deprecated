@@ -1,10 +1,10 @@
-import DefaultTheme from 'vitepress/theme'
-import './theme.css'
+import DefaultTheme from "vitepress/theme";
+import "./theme.css";
 
 export default {
-    ...DefaultTheme,
-    enhanceApp(ctx) {
-        // extend default theme custom behaviour.
-        DefaultTheme.enhanceApp(ctx)
-    }
-}
+  ...DefaultTheme,
+  enhanceApp(ctx) {
+    // extend default theme custom behaviour.
+    DefaultTheme.enhanceApp(ctx);
+  },
+};
