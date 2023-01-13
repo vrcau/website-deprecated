@@ -1,5 +1,5 @@
 # 停机
 ::: danger
-**仅限于 VRChat V320neo 使用**  
-**For V320neo Use Only**
+**仅限于 VRChat VAU320neo 使用**  
+**For VAU320neo Use Only**
 :::

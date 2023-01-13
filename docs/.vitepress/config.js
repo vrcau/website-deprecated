@@ -50,7 +50,7 @@ function nav() {
             link: "/airport/",
         },
         {
-            text: "V320neo",
+            text: "VAU320neo",
             link: "/v320neo/introduce",
         }
     ];

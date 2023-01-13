@@ -13,7 +13,7 @@ import {
 
 export function v320neoSidebar() {
     return [{
-            text: 'V320neo',
+            text: 'VAU320neo',
             items: [{
                 text: '简介',
                 link: '/v320neo/introduce'
@@ -30,7 +30,7 @@ export function v320neoSidebar() {
             items: v320neoAdvancedGuide()
         },
         {
-            text: 'V320neo 简报',
+            text: 'VAU320neo 简报',
             collapsible: true,
             items: v320neoBriefing()
         },

@@ -1,11 +1,15 @@
 # 将飞机导入到项目
 ## 安装依赖
+::: danger
+实际上因为有一部分依赖我们并没有公开修改后的版本，你现在无法按照这篇指南导入飞机。
+:::
 ::: tip
 将仓库 clone 或下载 Zip 后使用 Unity 包管理器导入包或者使用 [VRChat Creator Companion](https://vcc.docs.vrchat.com/)
 :::
 1. 导入 [SaccFlightAndVehicles 1.61](https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.61)
 2. 安装 [YuxiFlightInstruments](https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF)
 3. 安装 [修改版本的 EsnyaSFAddons](https://github.com/Heriyadi235/EsnyaSFAddons/tree/beta)
+4. 安装 UdonRadioCommunication
 ::: warning
 - **只需**导入 `Packages/com.nekometer.esnya.esnya-sf-addons`，**不要**导入 `com.nekometer.esnya.esnya-sf-addons-ucs`（因为我没有尝试过udonchip，所以可能有兼容性问题）
 - 该修改版本的 这个EsnyaSFAddons 因为修改/污染了原分支的大部分内容，与原分支并不兼容，将会在以后试图解决兼容性问题。

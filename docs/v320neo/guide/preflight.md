@@ -1,7 +1,7 @@
 # 航前准备
 ::: danger
-**仅限于 VRChat V320neo 使用**  
-**For V320neo Use Only**
+**仅限于 VRChat VAU320neo 使用**  
+**For VAU320neo Use Only**
 :::
 ::: warning
 由于技术限制，VRChat 的航前准备会和现实有一定出入。请勿将以下内容用于现实运行。
