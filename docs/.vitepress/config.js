@@ -11,7 +11,6 @@ export default {
   title: "VRChat Aerospace University",
   descrption: "VRChat",
   lastUpdated: true,
-  cleanUrls: "without-subfolders",
   head: [
     [
       "script",
@@ -49,7 +48,7 @@ export default {
   transformHtml: (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id))
       links.push({
-        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, "$2"),
+        url: pageData.relativePath.replace(/\.md$/, ".html"),
         lastmod: pageData.lastUpdated,
       });
   },
