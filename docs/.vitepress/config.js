@@ -4,12 +4,24 @@ import {
 import {
     aisSiderbar
 } from './sidebars/ais/ais-sidebar'
+import {
+    createWriteStream
+} from 'node:fs'
+import {
+    resolve
+} from 'node:path'
+import {
+    SitemapStream
+} from 'sitemap'
+
+const links = []
 
 export default {
     lang: 'zh-cn',
     title: "VRChat Aerospace University",
     descrption: "VRChat",
     lastUpdated: true,
+    cleanUrls: 'without-subfolders',
     head: [
         ['script', {
             defer: '',
@@ -38,6 +50,27 @@ export default {
             text: '在 Github 编辑此页'
         }
     },
+    transformHtml: (_, id, {
+        pageData
+    }) => {
+        if (!/[\\/]404\.html$/.test(id))
+            links.push({
+                url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+                lastmod: pageData.lastUpdated
+            })
+    },
+    buildEnd: async ({
+        outDir
+    }) => {
+        const sitemap = new SitemapStream({
+            hostname: 'https://yuxiaviation.com/'
+        })
+        const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+        sitemap.pipe(writeStream)
+        links.forEach((link) => sitemap.write(link))
+        sitemap.end()
+        await new Promise((r) => writeStream.on('finish', r))
+    }
 };
 
 function nav() {
