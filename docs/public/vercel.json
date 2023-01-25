@@ -1,0 +1,28 @@
+{
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/zh/"
+        },
+        {
+            "source": "/",
+            "destination": "/zh/",
+            "permanent": false,
+            "has": {
+                "type": "cookie",
+                "key": "lang",
+                "value": "zh"
+            }
+        },
+        {
+            "source": "/",
+            "destination": "/en/",
+            "permanent": false,
+            "has": {
+                "type": "cookie",
+                "key": "lang",
+                "value": "en"
+            }
+        }
+    ]
+}

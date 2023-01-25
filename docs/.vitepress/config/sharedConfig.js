@@ -1,16 +1,16 @@
-import { v320neoSidebar } from "./sidebars/v320neo/v320neo-sidebar";
-import { aisSiderbar } from "./sidebars/ais/ais-sidebar";
 import { createWriteStream } from "node:fs";
 import { resolve } from "node:path";
 import { SitemapStream } from "sitemap";
+import { defineConfig } from "vitepress";
+import { title } from "node:process";
 
 const links = [];
 
-export default {
-  lang: "zh-cn",
-  title: "VRChat Aerospace University",
-  descrption: "VRChat",
+export const sharedConfig = defineConfig({
   lastUpdated: true,
+  themeConfig: {
+    socialLinks: socialLinks(),
+  },
   head: [
     [
       "script",
@@ -27,24 +27,6 @@ export default {
       },
     ],
   ],
-  themeConfig: {
-    logo: "/VAU.svg",
-    nav: nav(),
-    socialLinks: socialLinks(),
-    sidebar: {
-      "/guide/": guideSidebar(),
-      "/v320neo/": v320neoSidebar(),
-      "/airport/": aisSiderbar(),
-    },
-    footer: {
-      message: "在 MIT 许可证下发布",
-      copyright: "Copyright © 2022-2023 VRChat Aerospace University",
-    },
-    editLink: {
-      pattern: "https://github.com/Misaka-L/vau-web/edit/main/docs/:path",
-      text: "在 Github 编辑此页",
-    },
-  },
   transformHtml: (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id))
       links.push({
@@ -62,24 +44,7 @@ export default {
     sitemap.end();
     await new Promise((r) => writeStream.on("finish", r));
   },
-};
-
-function nav() {
-  return [
-    {
-      text: "指南",
-      link: "/guide/getting-started",
-    },
-    {
-      text: "AIS",
-      link: "/airport/",
-    },
-    {
-      text: "VAU320neo",
-      link: "/v320neo/introduce",
-    },
-  ];
-}
+});
 
 function socialLinks() {
   return [
@@ -102,24 +67,6 @@ function socialLinks() {
         svg: '<svg t="1673088505585" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6254" width="64" height="64"><path d="M824.8 613.2c-16-51.4-34.4-94.6-62.7-165.3C766.5 262.2 689.3 112 511.5 112 331.7 112 256.2 265.2 261 447.9c-28.4 70.8-46.7 113.7-62.7 165.3-34 109.5-23 154.8-14.6 155.8 18 2.2 70.1-82.4 70.1-82.4 0 49 25.2 112.9 79.8 159-26.4 8.1-85.7 29.9-71.6 53.8 11.4 19.3 196.2 12.3 249.5 6.3 53.3 6 238.1 13 249.5-6.3 14.1-23.8-45.3-45.7-71.6-53.8 54.6-46.2 79.8-110.1 79.8-159 0 0 52.1 84.6 70.1 82.4 8.5-1.1 19.5-46.4-14.5-155.8z" p-id="6255"></path></svg>',
       },
       link: "https://jq.qq.com/?_wv=1027&k=oH8yHGNS",
-    },
-  ];
-}
-
-function guideSidebar() {
-  return [
-    {
-      text: "指南",
-      items: [
-        {
-          text: "开始飞行",
-          link: "/guide/getting-started",
-        },
-        {
-          text: "关于",
-          link: "/guide/about",
-        },
-      ],
     },
   ];
 }
