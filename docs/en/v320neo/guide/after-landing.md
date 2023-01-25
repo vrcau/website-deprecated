@@ -1,5 +1,4 @@
-# 着陆后
-::: danger
-**仅限于 VRChat VAU320neo 使用**  
+# After Landing
+::: danger 
 **For VAU320neo Use Only**
 :::

@@ -1,12 +1,14 @@
-# 概述
+# Overview
 ::: danger
-**仅限于 VRChat VAU320neo 使用**  
 **For VAU320neo Use Only**
 :::
 ::: warning
-目前该指南是基于较老版本的 VAU320neo 和未完成的 ZVAU 机场编写的，内容不完全适用于最新版本的 VAU320neo。且内容随时会更改。
+This guide is based on old versions of VAU320neo, and the incomplete version of ZVAU airport. 
+Thus it does not necessarily reflect the latest version of VAU320neo, and is subject to changes.
 :::
-欢迎！这篇指南是面向于没有在 VRChat 驾驶过 VAU320neo 这类级别的客机的新手编写的。将会覆盖从航前准备到落地等飞行阶段。
+Hi. This guide is for those who have never flown large aircrafts like the VAU320neo in VRChat.
+It covers from the preperations stage all the way to landing.
 ::: tip
-该指南的操作可能会不同于虚拟航空公司的 SOP，实际运行中请按照虚拟航空公司的 SOP 操作（如果有）  
+This guide does not necessarily follows Standard Operation Procedures (SOPs) in virtual airlines.
+Please follow SOPs whenver possible.
 :::

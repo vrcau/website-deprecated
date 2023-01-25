@@ -1,22 +1,23 @@
-# 航前准备
-::: danger
-**仅限于 VRChat VAU320neo 使用**  
+# Preflight
+::: danger 
 **For VAU320neo Use Only**
 :::
 ::: warning
-由于技术限制，VRChat 的航前准备会和现实有一定出入。请勿将以下内容用于现实运行。
+Preflight preperations in VRChat differs a lot from real operations due to technology limitations. 
+Do NOT apply these in real life.
 :::
-航前准备是一次飞行的必要部分，良好的航前准备至少可以确保你不会在天上迷航。  
-我们将会分别以 ZVAU 10L 本场起落为例进行一次航前准备。
-## 航行资料准备
-目前 VRChat 的机场主要分为两类：
-- 还原现实机场，可以参考现实世界运行的航图或由 [Navigraph](https://navigraph.com) 等服务商提供的航图。
-- 虚构机场，请查看开发者提供的航行资料或进行实地考察。
+Preflight preperations are necessary in any flight. A good preperation ensures that you'll unlikely to get lost in the sky.
+The example will show a preflight preperation procedure from and to RWY 10L of ZVAU.
+## Gathering Information
+There are mainly two categories of airports in VRChat:
+- Mimic of a realistic airport. In this case, Navigation Charts can be found in services like [Navigraph](https://navigraph.com).
+- Fictional airports. Refer to the aeronautical information provided by the developers.
 ::: tip
-目前提供航行资料的虚构机场屈指可数，所以对于大部分虚构机场你大概率要进行实地考察。
+Only a few fictional airports provides aeronautical information. In most cases you will need to gather these information by acutually inspecting around the airport.
 :::
-我们本次飞行的 ZVAU 机场提供了 AIS 服务：[VAU Aeronautical Information Services](/en/airport/)
-## 飞行计划
-本次飞行我们将会从 ZVAU 10L 跑道起飞，起飞后保持一边爬升到 600m (2000ft) 后连续左转到航向 283 到 10L 三边，随后左转航向 193 到四边。目视 10L 后加入五边。
+ZVAU provides AIS services in [VAU Aeronautical Information Services](/en/airport/), which will be used for this example.
+## Flight Plan
+For this example, we'll be taking of from RWY 10L of ZVAU, fly runway heading until 2000ft (600m),turn left and directly join downwind of heading 283, and turn left again to base of heading 193.
+After we have visual of RWY 10L, we'll turn and join final.
 
-![飞行计划](/v320neo/guide/flightplan-10L.webp)
+![Flight Plan](/v320neo/guide/flightplan-10L.webp)

@@ -1,39 +1,37 @@
-# 发动机启动和滑行
+# Startup and Taxiing
 ::: danger
-**仅限于 VRChat VAU320neo 使用**  
 **For VAU320neo Use Only**
 :::
-## 进入驾驶舱
-![座位](/v320neo/guide/enter-seat.webp)
+## Getting Seated
+![Seat](/v320neo/guide/enter-seat.webp)
 
-进入飞机后，请坐左座的位置。
+Sit to the left when entering.
 ::: tip
-目前只能由左座操纵飞机，在右座或其他位置都是无法操纵飞机的。
+Only the player on the left seat has control for now. Other seats are passenger seats only.
 :::
-## 启动发动机
-![VAU320neo 驾驶舱](/v320neo/guide/cockpit.webp)
-
-进入驾驶舱后，确认飞机周围没有其他人员和杂物。选择飞机的 Canopy 功能关闭舱门 (在桌面模式，按 `Z`)，并选择选择飞机的 AUTO START 功能启动发动机 (在桌面模式，按 `F4`)
+## Startup
+![VAU320neo Cockpit](/v320neo/guide/cockpit.webp)
+After seated, check that there is no person or unexpected objects on the ground. Then select `Canopy` to close the cabin door (That is `Z` in desktop mode). Select `AUTO START` in order to start the engines (That is `F4` in desktop mode).
 ::: warning
-如果在周围在人员和杂物的情况下启动发动机，虽然并不会直接造成人员伤亡，但是可能会导致异物被吸入发动机造成发动机停车并把机坪搞的一团糟。你可能会因为被愤怒的路人殴打造成人员伤亡。
+Do not start the engine without clearing people or unexpected objects on the ground. Although it won't cause any injury directly, it will cause damages to the engine and mess up with the apron. You will likely be beaten by angry people on the ground and thus causing indirect injuries.
 :::
 
-![正在启动发动机时的 ECAM](/v320neo/guide/ecam-starting-engine.webp)
+![ECAM when startup](/v320neo/guide/ecam-starting-engine.webp)
 
-启动发动机时请观察 ECAM 的指示（即被标记的那块屏幕），待两部发动机 N1 转速表都显示过 `AVAIL` 后，发动机便启动完成。
+Monitor ECAM when startup (The screen in red frame in the screenshot). After `AVAIL` is shown on both engine indicators, the startup procedure completes.
 
-![发动机启动完成时的 ECAM](/v320neo/guide/ecam-engine-started.webp)
-## 启动发动机后
-![1+F 形态时的 ECAM](/v320neo/guide/ecam-after-started-flaps.webp)
+![ECAM after startup](/v320neo/guide/ecam-engine-started.webp)
+## After Startup
+![ECAM with configuration 1+F](/v320neo/guide/ecam-after-started-flaps.webp)
 
-待发动机启动后，选择 Flaps 功能（在桌面模式，按 `F`）将飞机的形态设置为 `1+F`，并在 ECAM 确认形态已选择 `1+F`，并选择 LADING LIGHT 功能 (在桌面模式，按 `F5`) 打开着陆灯。
+After startup, select `Flaps` (That is `F` in desktop mode) to set flaps and slats to `1+F1`. Check that ECAM shows configuration set to `1+F`. Then, select `LANDING LIGHT` (That is `F5` in desktop mode) to turn on the Landing Lights.
 ::: warning
-实际上，你不应该在起降和进出跑道的情况外打开着陆灯。现在打开着陆灯仅仅是因为 VAU320neo 并没有单独的滑行灯设置。
+In real operations, your are not supposed to turn on Landing Lights other than takeoff, landing, entering and exiting the runway. The reason why we turn on Landing Lights here is because VAU320neo has no Taxi Light settings.
 :::
-## 滑行
-我们的飞机目前正在 `J1` 滑行道上，按照 ZVAU 机场场图，我们需要沿 `J1 T2 A A1` 滑行到跑道 10L。
+## Taxi
+Since we are parking at TWY `J1`, we'll need to taxi via `J1, T2, A, A1` to RWY 10L, according to the airport chart of ZVAU.
 
-![到跑道的滑行路线](/v320neo/guide/taxi-to-10L.webp)
+![Taxi route](/v320neo/guide/taxi-to-10L.webp)
 ::: tip
-加一点推力让飞机动起来后，可以在滑行全程保持推力慢车。VAU320neo 的发动机慢车推力足以提供滑行所需的推力。
+After you apply a little bit throttle to start moving the aircraft, you can then keep the throttle at idle. This is because the engines of VAU320neo provides enough thrust power for taxiing even in idle thrust.
 :::
