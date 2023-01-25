@@ -1,5 +1,4 @@
-# 进近着陆
+# Approach and Landing
 ::: danger
-**仅限于 VRChat VAU320neo 使用**  
 **For VAU320neo Use Only**
 :::

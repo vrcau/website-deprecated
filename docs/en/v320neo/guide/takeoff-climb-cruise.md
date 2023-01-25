@@ -1,14 +1,13 @@
-# 起飞，爬升，巡航
+# Takeoff, Climb and Cruise
 ::: danger
-**仅限于 VRChat VAU320neo 使用**  
 **For VAU320neo Use Only**
 :::
-## 起飞
-![起飞](/v320neo/guide/takeoff.webp)
+## Takeoff
+![Takeoff](/v320neo/guide/takeoff.webp)
 
-进入并对正跑道后，将飞机完全刹停。并观察 ECAM 指示将推力手柄移动到 50% N1 的位置。待发动机在 50% N1 稳定后，将推力手柄推至 TOGA 卡位。  
-在滑跑过程中，100kt 前保持侧杆低头，100kt 后缓慢将侧杆移至中立位，到达 160kt 时缓慢拉起侧杆保持大约 3° 每秒的速率抬轮到 15° 的姿态。
+After lining up with the runway, stop the aircraft by applying `BREAK`. Monitor ECAM while push the throttle until 50% N1. After stablizing at 50% N1, push the throttle to TOGA position.
+When rolling, apply force on the yoke to keep the head down until 100kt. When above 100kt, smoothly neutralize the yoke. At 160kt, gently pull the yoke to rotate in a rate of 3°/sec until pitch reaches 15°.
 
-![抬轮](/v320neo/guide/rotate.webp)
+![Rotate](/v320neo/guide/rotate.webp)
 
-当飞机建立正上升后，选择 Gear 功能（在桌面模式，按 `G`）收上起落架
+After confirming positive climb rate, select `Gear` (That is `G` in desktop mode) to retract the landing gears.
