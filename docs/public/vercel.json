@@ -1,12 +1,12 @@
 {
     "redirects": [
         {
-            "source": "/:path",
-            "destination": "/zh/:path"
+            "source": "/*",
+            "destination": "/zh/"
         },
         {
-            "source": "/:path",
-            "destination": "/zh/:path",
+            "source": "/*",
+            "destination": "/zh/",
             "permanent": false,
             "has": {
                 "type": "cookie",
@@ -15,8 +15,8 @@
             }
         },
         {
-            "source": "/:path",
-            "destination": "/en/:path",
+            "source": "/*",
+            "destination": "/en/",
             "permanent": false,
             "has": {
                 "type": "cookie",
