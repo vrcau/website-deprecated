@@ -1,5 +1,3 @@
-import { aisSiderbar } from "../sidebars/ais/ais-sidebar";
-
 export const zhConfig = {
   lang: "zh",
   title: "VRChat 航空航天大学",
@@ -132,6 +130,38 @@ function v320neoSidebar() {
           link: "/zh/v320neo/developer/install-aircraft",
         },
       ],
+    },
+  ];
+}
+
+function aisSiderbar() {
+  return [
+    {
+      text: "Aeronautical Information Services",
+      items: [
+        {
+          text: "简介",
+          link: "/zh/airport/",
+        },
+      ],
+    },
+    {
+      text: "ZVAU",
+      collapsible: true,
+      items: aisZVAU(),
+    },
+  ];
+}
+
+function aisZVAU() {
+  return [
+    {
+      text: "ZVAU-ADC 机场场图",
+      link: "/zh/airport/zvau/ZVAU-ADC",
+    },
+    {
+      text: "ZVAU-IAC-ILS/DME 10R 仪表进近图",
+      link: "/zh/airport/zvau/ZVAU-IAC-ILS&DME-10R",
     },
   ];
 }
