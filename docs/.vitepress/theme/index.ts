@@ -5,10 +5,6 @@ import "./theme.css";
 
 export default {
   ...DefaultTheme,
-  enhanceApp(ctx) {
-    // extend default theme custom behaviour.
-    DefaultTheme.enhanceApp(ctx);
-  },
   setup() {
     const { lang } = useData();
     watchEffect(() => {

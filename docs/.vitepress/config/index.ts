@@ -6,7 +6,7 @@ import { enConfig } from "./en";
 export default defineConfig({
   ...sharedConfig,
   locales: {
-    zh: { label: "简体中文", lang: "zh", ...zhConfig },
-    en: { label: "English", lang: "en", ...enConfig },
+    zh: { label: "简体中文", ...zhConfig },
+    en: { label: "English", ...enConfig },
   },
 });
