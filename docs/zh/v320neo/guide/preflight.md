@@ -15,7 +15,7 @@
 ::: tip
 目前提供航行资料的虚构机场屈指可数，所以对于大部分虚构机场你大概率要进行实地考察。
 :::
-我们本次飞行的 ZVAU 机场提供了 AIS 服务：[VAU Aeronautical Information Services](/airport/)
+我们本次飞行的 ZVAU 机场提供了 AIS 服务：[VAU Aeronautical Information Services](/zh/airport/)
 ## 飞行计划
 本次飞行我们将会从 ZVAU 10L 跑道起飞，起飞后保持一边爬升到 600m (2000ft) 后连续左转到航向 283 到 10L 三边，随后左转航向 193 到四边。目视 10L 后加入五边。
 
