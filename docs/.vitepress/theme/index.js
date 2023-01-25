@@ -12,8 +12,8 @@ export default {
   setup() {
     const { lang } = useData();
     watchEffect(() => {
-      if (typeof document !== "undefined") {
-        document.cookie = `lang=${lang.value}; expires=Mon, 1 Jan 2024 00:00:00 UTC; path=/`;
+      if (window.location.pathname != '/') {
+        localStorage.setItem('lang', lang.value);
       }
     });
   },
