@@ -12,9 +12,12 @@ export default {
   setup() {
     const { lang } = useData();
     watchEffect(() => {
-      // if (window.location.pathname != '/') {
-      //   localStorage.setItem('lang', lang.value);
-      // }
+      // to avoid build warning
+      if (typeof window !== "undefined") {
+        if (window.location.pathname != "/") {
+          localStorage.setItem("lang", lang.value);
+        }
+      }
     });
   },
 };
