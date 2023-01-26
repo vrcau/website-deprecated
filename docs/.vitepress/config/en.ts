@@ -62,71 +62,71 @@ function v320neoSidebar() {
       text: "VAU320neo",
       items: [
         {
-          text: "简介",
+          text: "Introduce",
           link: "/en/v320neo/introduce",
         },
       ],
     },
     {
-      text: "飞行指南",
+      text: "Beginner Guide",
       collapsible: true,
       items: [
         {
-          text: "概述",
+          text: "Overview",
           link: "/en/v320neo/guide/overview",
         },
         {
-          text: "航前准备",
+          text: "Preflight",
           link: "/en/v320neo/guide/preflight",
         },
         {
-          text: "发动机启动和滑行",
+          text: "Startup and Taxiing",
           link: "/en/v320neo/guide/start-and-taxi",
         },
         {
-          text: "起飞，爬升，巡航",
+          text: "Takeoff, Climb and Cruise",
           link: "/en/v320neo/guide/takeoff-climb-cruise",
         },
         {
-          text: "下降",
+          text: "Descending",
           link: "/en/v320neo/guide/descent",
         },
         {
-          text: "进近着陆",
+          text: "Approach and Landing",
           link: "/en/v320neo/guide/approach-landing",
         },
         {
-          text: "停机",
+          text: "Shutdown",
           link: "/en/v320neo/guide/taxi-to-gate",
         },
       ],
     },
     {
-      text: "进阶指南",
+      text: "Advanced Guides",
       collapsible: true,
       items: [
         {
-          text: "概述",
+          text: "Overview",
           link: "/en/v320neo/advanced-guide/overview",
         },
       ],
     },
     {
-      text: "VAU320neo 简报",
+      text: "VAU320neo Briefing",
       collapsible: true,
       items: [
         {
-          text: "概述",
+          text: "Overview",
           link: "/en/v320neo/briefing/overview",
         },
       ],
     },
     {
-      text: "开发指南",
+      text: "Development Guides",
       collapsible: true,
       items: [
         {
-          text: "将飞机导入到项目",
+          text: "Importing the aircraft",
           link: "/en/v320neo/developer/install-aircraft",
         },
       ],
@@ -140,7 +140,7 @@ function aisSiderbar() {
       text: "Aeronautical Information Services",
       items: [
         {
-          text: "简介",
+          text: "Introduce",
           link: "/en/airport/",
         },
       ],
@@ -156,11 +156,11 @@ function aisSiderbar() {
 function aisZVAU() {
   return [
     {
-      text: "ZVAU-ADC 机场场图",
+      text: "ZVAU-ADC Airport Chart",
       link: "/en/airport/zvau/ZVAU-ADC",
     },
     {
-      text: "ZVAU-IAC-ILS/DME 10R 仪表进近图",
+      text: "ZVAU-IAC-ILS/DME 10R ILS Chart",
       link: "/en/airport/zvau/ZVAU-IAC-ILS&DME-10R",
     },
   ];
