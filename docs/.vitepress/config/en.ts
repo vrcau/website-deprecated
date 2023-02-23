@@ -1,7 +1,10 @@
-export const enConfig = {
+import { defineConfig } from "vitepress";
+
+export const enConfig = defineConfig({
   lang: "en",
   title: "VRChat Aerospace University",
-  descrption: "A small group that develops Sacc-based aircraft and supporting facilities.",
+  description:
+    "A small group that develops Sacc-based aircraft and supporting facilities.",
   themeConfig: {
     logo: "/VAU.svg",
     nav: nav(),
@@ -19,7 +22,7 @@ export const enConfig = {
       text: "Edit this page on GitHub",
     },
   },
-};
+});
 
 function nav() {
   return [
@@ -69,7 +72,7 @@ function v320neoSidebar() {
     },
     {
       text: "Beginner Guide",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "Overview",
@@ -103,7 +106,7 @@ function v320neoSidebar() {
     },
     {
       text: "Advanced Guides",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "Overview",
@@ -113,7 +116,7 @@ function v320neoSidebar() {
     },
     {
       text: "VAU320neo Briefing",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "Overview",
@@ -123,7 +126,7 @@ function v320neoSidebar() {
     },
     {
       text: "Development Guides",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "Importing the aircraft",
@@ -147,7 +150,7 @@ function aisSiderbar() {
     },
     {
       text: "ZVAU",
-      collapsible: true,
+      collapsed: false,
       items: aisZVAU(),
     },
   ];

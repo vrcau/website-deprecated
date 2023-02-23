@@ -1,7 +1,9 @@
-export const zhConfig = {
+import { defineConfig } from "vitepress";
+
+export const zhConfig = defineConfig({
   lang: "zh",
   title: "VRChat 航空航天大学",
-  descrption: "一个开发及制作基于 Sacc 系统的飞机及配套设施的小群组",
+  description: "一个开发及制作基于 Sacc 系统的飞机及配套设施的小群组",
   themeConfig: {
     logo: "/VAU.svg",
     nav: nav(),
@@ -19,7 +21,7 @@ export const zhConfig = {
       text: "在 Github 编辑此页",
     },
   },
-};
+});
 
 function nav() {
   return [
@@ -69,7 +71,7 @@ function v320neoSidebar() {
     },
     {
       text: "飞行指南",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "概述",
@@ -103,7 +105,7 @@ function v320neoSidebar() {
     },
     {
       text: "进阶指南",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "概述",
@@ -113,7 +115,7 @@ function v320neoSidebar() {
     },
     {
       text: "VAU320neo 简报",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "概述",
@@ -123,7 +125,7 @@ function v320neoSidebar() {
     },
     {
       text: "开发指南",
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: "将飞机导入到项目",
@@ -147,7 +149,7 @@ function aisSiderbar() {
     },
     {
       text: "ZVAU",
-      collapsible: true,
+      collapsed: false,
       items: aisZVAU(),
     },
   ];

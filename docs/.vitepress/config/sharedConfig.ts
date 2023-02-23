@@ -2,9 +2,8 @@ import { createWriteStream } from "node:fs";
 import { resolve } from "node:path";
 import { SitemapStream } from "sitemap";
 import { defineConfig } from "vitepress";
-import { title } from "node:process";
 
-const links: any = [];
+const links: url[] = [];
 
 export const sharedConfig = defineConfig({
   lastUpdated: true,
@@ -100,9 +99,9 @@ export const sharedConfig = defineConfig({
       {
         rel: "preconnect",
         href: "https://WIER0DF0Z3-dsn.algolia.net",
-        crossorign: ""
-      }
-    ]
+        crossorign: "",
+      },
+    ],
   ],
   transformHtml: (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id))
@@ -122,3 +121,8 @@ export const sharedConfig = defineConfig({
     await new Promise((r) => writeStream.on("finish", r));
   },
 });
+
+interface url {
+  url: string;
+  lastmod: number | undefined;
+}
