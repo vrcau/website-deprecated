@@ -166,5 +166,9 @@ function aisZVAU() {
       text: "ZVAU-IAC-ILS/DME 10R ILS Chart",
       link: "/en/airport/zvau/ZVAU-IAC-ILS&DME-10R",
     },
+    {
+      text: "ZVAU-STAR-RWY10R Standard Instrument Arrival Chart",
+      link: "/en/airport/zvau/ZVAU-STAR-RWY10R",
+    },
   ];
 }
