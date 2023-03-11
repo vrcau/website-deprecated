@@ -10,7 +10,7 @@ export const zhConfig = defineConfig({
     sidebar: {
       "/zh/guide/": guideSidebar(),
       "/zh/v320neo/": v320neoSidebar(),
-      "/zh/airport/": aisSiderbar(),
+      "/zh/ais/": aisSiderbar(),
     },
     footer: {
       message: "在 MIT 许可证下发布",
@@ -31,7 +31,7 @@ function nav() {
     },
     {
       text: "AIS",
-      link: "/zh/airport/",
+      link: "/zh/ais/",
     },
     {
       text: "VAU320neo",
@@ -143,31 +143,9 @@ function aisSiderbar() {
       items: [
         {
           text: "简介",
-          link: "/zh/airport/",
+          link: "/zh/ais/",
         },
       ],
-    },
-    {
-      text: "ZVAU",
-      collapsed: false,
-      items: aisZVAU(),
-    },
-  ];
-}
-
-function aisZVAU() {
-  return [
-    {
-      text: "ZVAU-ADC 机场场图",
-      link: "/zh/airport/zvau/ZVAU-ADC",
-    },
-    {
-      text: "ZVAU-IAC-ILS/DME 10R 仪表进近图",
-      link: "/zh/airport/zvau/ZVAU-IAC-ILS&DME-10R",
-    },
-    {
-      text: "ZVAU-STAR-RWY10R 标准仪表进场图",
-      link: "/zh/airport/zvau/ZVAU-STAR-RWY10R",
     },
   ];
 }

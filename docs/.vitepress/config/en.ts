@@ -11,7 +11,7 @@ export const enConfig = defineConfig({
     sidebar: {
       "/en/guide/": guideSidebar(),
       "/en/v320neo/": v320neoSidebar(),
-      "/en/airport/": aisSiderbar(),
+      "/en/ais/": aisSiderbar(),
     },
     footer: {
       message: "Released under the MIT License.",
@@ -32,7 +32,7 @@ function nav() {
     },
     {
       text: "AIS",
-      link: "/en/airport/",
+      link: "/en/ais/",
     },
     {
       text: "VAU320neo",
@@ -144,31 +144,9 @@ function aisSiderbar() {
       items: [
         {
           text: "Introduce",
-          link: "/en/airport/",
+          link: "/en/ais/",
         },
       ],
-    },
-    {
-      text: "ZVAU",
-      collapsed: false,
-      items: aisZVAU(),
-    },
-  ];
-}
-
-function aisZVAU() {
-  return [
-    {
-      text: "ZVAU-ADC Airport Chart",
-      link: "/en/airport/zvau/ZVAU-ADC",
-    },
-    {
-      text: "ZVAU-IAC-ILS/DME 10R ILS Chart",
-      link: "/en/airport/zvau/ZVAU-IAC-ILS&DME-10R",
-    },
-    {
-      text: "ZVAU-STAR-RWY10R Standard Instrument Arrival Chart",
-      link: "/en/airport/zvau/ZVAU-STAR-RWY10R",
     },
   ];
 }

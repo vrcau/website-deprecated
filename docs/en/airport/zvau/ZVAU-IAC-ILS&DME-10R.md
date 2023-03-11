@@ -1,2 +1,0 @@
-# ZVAU-IAC-ILS/DME 10R ILS Chart
-![ZVAU-IAC-ILS/DME-10R](/eaip/zvau/ZVAU-IAC-ILS&DME-10R.jpg)
