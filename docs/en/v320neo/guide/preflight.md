@@ -15,7 +15,7 @@ There are mainly two categories of airports in VRChat:
 ::: tip
 Only a few fictional airports provides aeronautical information. In most cases you will need to gather these information by acutually inspecting around the airport.
 :::
-ZVAU provides AIS services in [VAU Aeronautical Information Services](/en/airport/), which will be used for this example.
+ZVAU provides AIS services in [VAU Aeronautical Information Services](/en/ais/), which will be used for this example.
 ## Flight Plan
 For this example, we'll be taking of from RWY 10L of ZVAU, fly runway heading until 2000ft (600m),turn left and directly join downwind of heading 283, and turn left again to base of heading 193.
 After we have visual of RWY 10L, we'll turn and join final.
