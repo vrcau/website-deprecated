@@ -1,5 +1,5 @@
 .VPContent.is-home {
-    background-image: url("/home/02.webp");
+    background-image: url("/home.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,22 @@
 .VPHome {
     background: linear-gradient(175deg,
             var(--vp-c-bg),
-            transparent 70%);
-    backdrop-filter: blur(0.1rem);
-    -webkit-backdrop-filter: blur(0.1rem);
+            transparent 75%);
+}
+
+.VPHome .name {
+    color: #00ffaa;
+}
+
+.VPHome .text {
+    color: var(--vp-c-text-dark-1);
+}
+
+.VPHome .tagline {
+    color: rgba(235, 235, 245, 0.9);
+}
+
+.dark .VPHome {
+    --vp-home-hero-name-color: var(--vp-c-brand);
+    --vp-c-text-2: var(--vp-c-text-dark-2);
 }

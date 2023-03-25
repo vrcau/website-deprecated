@@ -36,7 +36,7 @@ function nav() {
     },
     {
       text: "VAU320neo",
-      link: "/en/v320neo/introduce",
+      link: "/en/v320neo/",
     },
   ];
 }
