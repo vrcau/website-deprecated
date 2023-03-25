@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: VRChat 航空航天大学
+title: VRChat Aerospace University
 titleTemplate: V320neo
 
 hero:
