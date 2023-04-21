@@ -14,4 +14,4 @@ VAU320neo 项目是 VAU 的一个基于 [SaccFlightAndVehicles](https://github.c
 发动机     CFM LEAP 1A-26
 ```
 ## 链接
-机模 UdonSharp 脚本: [Heriyadi235/VAU320](https://github.com/Heriyadi235/VAU320)
+机模 UdonSharp 脚本: [Heriyadi235/VAU320](https://github.com/vrcau/VAU320)

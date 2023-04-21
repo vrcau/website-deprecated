@@ -11,7 +11,7 @@ export const sharedConfig = defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/Heriyadi235/VAU320",
+        link: "https://github.com/vrcau",
       },
       {
         icon: "twitter",
@@ -80,13 +80,6 @@ export const sharedConfig = defineConfig({
     },
   },
   head: [
-    [
-      "script",
-      {
-        defer: "",
-        src: "/_vercel/insights/script.js",
-      },
-    ],
     [
       "meta",
       {

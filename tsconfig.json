@@ -1,16 +1,10 @@
 {
-    "extends": "@vue/tsconfig/tsconfig.web.json",
+    "extends": [
+        "@vue/tsconfig/tsconfig.json",
+        "@vue/tsconfig/tsconfig.dom.json"
+    ],
     "include": [
         "docs/.vitepress/**/*",
     ],
-    "exclude": [],
-    "compilerOptions": {
-        "target": "es2017",
-        "strict": true,
-        "lib": [
-            "es2017",
-            "dom",
-            "scripthost"
-        ]
-    }
+    "exclude": []
 }

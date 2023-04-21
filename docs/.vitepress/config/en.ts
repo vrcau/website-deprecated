@@ -18,7 +18,7 @@ export const enConfig = defineConfig({
       copyright: "Copyright © 2022-2023 VRChat Aerospace University",
     },
     editLink: {
-      pattern: "https://github.com/Misaka-L/vau-web/edit/main/docs/:path",
+      pattern: "https://github.com/vrcau/vau-web/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
   },

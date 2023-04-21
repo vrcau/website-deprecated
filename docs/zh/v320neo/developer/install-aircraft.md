@@ -15,7 +15,7 @@
 - 该修改版本的 这个EsnyaSFAddons 因为修改/污染了原分支的大部分内容，与原分支并不兼容，将会在以后试图解决兼容性问题。
 :::
 ## 克隆脚本仓库
-克隆 [Heriyadi235/VAU320](https://github.com/Heriyadi235/VAU320) 仓库到项目目录中。
+克隆 [Heriyadi235/VAU320](https://github.com/vrcau/VAU320) 仓库到项目目录中。
 ::: warning
 不要把文件直接拖入 Unity，而是使用资源管理器将文件直接复制到项目目录或直接 clone 到项目目录。
 :::

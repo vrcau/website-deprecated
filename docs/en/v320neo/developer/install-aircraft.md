@@ -18,7 +18,7 @@ Git clone, or download zip of this repository. Use Unity Package Import or [VRCh
 - Most of the contents in this version of EsnyaSFAddons are modified/overrided and incompatible with the original branch. We'll try to fix compatibility problems in the future.
 :::
 ## Clone
-Clone [Heriyadi235/VAU320](https://github.com/Heriyadi235/VAU320) into your project directory。
+Clone [Heriyadi235/VAU320](https://github.com/vrcau/VAU320) into your project directory。
 ::: warning
 Do not drag&drop into Unit. Instead, drop/clone the files into your project directory using the File Explorer.
 :::

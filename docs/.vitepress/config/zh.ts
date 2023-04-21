@@ -17,7 +17,7 @@ export const zhConfig = defineConfig({
       copyright: "Copyright © 2022-2023 VRChat 航空航天大学",
     },
     editLink: {
-      pattern: "https://github.com/Misaka-L/vau-web/edit/main/docs/:path",
+      pattern: "https://github.com/vrcau/vau-web/edit/main/docs/:path",
       text: "在 Github 编辑此页",
     },
   },
