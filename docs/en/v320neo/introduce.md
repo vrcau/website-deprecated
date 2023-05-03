@@ -14,4 +14,4 @@ Model       V320-251N (corresponding to A320-251N)
 Engines     CFM LEAP 1A-26
 ```
 ## Links
-UdonSharp scripts of the model: [Heriyadi235/VAU320](https://github.com/vrcau/VAU320)
+Github: [vrcau/VAU320](https://github.com/vrcau/VAU320)

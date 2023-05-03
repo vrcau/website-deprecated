@@ -1,26 +1,19 @@
 # 将飞机导入到项目
-## 安装依赖
 ::: danger
-实际上因为有一部分依赖我们并没有公开修改后的版本，你现在无法按照这篇指南导入飞机。
+**请先安装 [Git](https://git-scm.com/) 和 [Git-LFS](https://git-lfs.com/)，否则无法正常拉取资源文件！**  
 :::
 ::: tip
-将仓库 clone 或下载 Zip 后使用 Unity 包管理器导入包或者使用 [VRChat Creator Companion](https://vcc.docs.vrchat.com/)
+如果你使用的是 Git For Windows，那你应该无需重新安装 Git-LFS。  
+- 如何打开 Unity 包管理器窗口: https://docs.unity3d.com/2019.4/Documentation/Manual/upm-ui.html
+- 如何从 Git Url 导入包: https://docs.unity3d.com/2019.4/Documentation/Manual/upm-ui-giturl.html
 :::
-1. 导入 [SaccFlightAndVehicles 1.61](https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.61)
-2. 安装 [YuxiFlightInstruments](https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF)
-3. 安装 [修改版本的 EsnyaSFAddons](https://github.com/Heriyadi235/EsnyaSFAddons/tree/beta)
-4. 安装 UdonRadioCommunication
-::: warning
-- **只需**导入 `Packages/com.nekometer.esnya.esnya-sf-addons`，**不要**导入 `com.nekometer.esnya.esnya-sf-addons-ucs`（因为我没有尝试过udonchip，所以可能有兼容性问题）
-- 该修改版本的 这个EsnyaSFAddons 因为修改/污染了原分支的大部分内容，与原分支并不兼容，将会在以后试图解决兼容性问题。
-:::
-## 克隆脚本仓库
-克隆 [Heriyadi235/VAU320](https://github.com/vrcau/VAU320) 仓库到项目目录中。
-::: warning
-不要把文件直接拖入 Unity，而是使用资源管理器将文件直接复制到项目目录或直接 clone 到项目目录。
-:::
-## 获取资产
-VAU320 Github 仓库中并未包含飞机的网格、纹理、动画以及音效，这些需要在 VRChat Aerospace University 的 QQ 群组：[526014547](https://jq.qq.com/?_wv=1027&k=oH8yHGNS) 的群文件获取。
-::: warning
-群文件内的 Unitypackage 暂未更新，需要**手动选择**只导入资产包中的 `/YuxiPlanes/A320NEO/` 文件夹及其中内容
-:::
+1. 导入 [SaccFlightAndVehicles 1.62](https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.62)
+2. 安装以下依赖
+    - [YuxiFlightInsturments](https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF): `https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF.git?path=/Packages/com.yuxiaviation.yuxiflightinstruments`
+    - [InariUdon](https://github.com/esnya/InariUdon.git): `https://github.com/esnya/InariUdon.git?path=/Packages/com.nekometer.esnya.inari-udon`
+    - [EsnyaSFAddons](https://github.com/Esnya/EsnyaSFAddons): `https://github.com/esnya/EsnyaSFAddons.git?path=/Packages/com.nekometer.esnya.esnya-sf-addons`
+    - [UdonRadioCommunications & UdonRadioCommunications SaccFlight Integrations](https://github.com/esnya/UdonRadioCommunications): `https://github.com/esnya/UdonRadioCommunications.git?path=/Packages/com.nekometer.esnya.udon-radio-communications` 和 `https://github.com/esnya/UdonRadioCommunications.git?path=/Packages/com.nekometer.esnya.udon-radio-communications-sf`
+    - [UdonToolkit](https://github.com/orels1/UdonToolkit): `https://github.com/orels1/UdonToolkit.git`
+    - [VUdon-ArrayExtensions](https://github.com/Varneon/VUdon-ArrayExtensions): `https://github.com/Varneon/VUdon-ArrayExtensions.git?path=/Packages/com.varneon.vudon.array-extensions`
+3. 使用 GIt Url 安装安装飞机：`https://github.com/vrcau/VAU320.git?path=/Packages/com.yuxiaviation.vau320neo/`
+4. 大功告成。

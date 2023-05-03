@@ -1,28 +1,19 @@
 # Importing the aircraft
 ::: danger
-This document is subject to changes.
-:::
-## Dependencies
-::: danger
-In fact, some modifications of dependencies are not published yet. You might NOT be able to import this aircraft yet throught this guide.
+**INSTALL [GIT](https://git-scm.com/) AND [GIF-LFS](https://git-lfs.com/) FRIST**
 :::
 ::: tip
-Git clone, or download zip of this repository. Use Unity Package Import or [VRChat Creator Companion](https://vcc.docs.vrchat.com/).
+If you are using Git For Windows, you may not need to install Git-LFS.
+- How to open Package Manager Window: https://docs.unity3d.com/2019.4/Documentation/Manual/upm-ui.html  
+- How to Import Package using Git url: https://docs.unity3d.com/2019.4/Documentation/Manual/upm-ui-giturl.html
 :::
-1. Import [SaccFlightAndVehicles 1.61](https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.61)
-2. Import [YuxiFlightInstruments](https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF)
-3. Import [修改版本的 EsnyaSFAddons](https://github.com/Heriyadi235/EsnyaSFAddons/tree/beta)
-4. Import UdonRadioCommunication
-::: warning
-- **ONLY** import `Packages/com.nekometer.esnya.esnya-sf-addons`，**DO NOT** import `com.nekometer.esnya.esnya-sf-addons-ucs`(UdonChips are not tested and might have problems in compatibilities)
-- Most of the contents in this version of EsnyaSFAddons are modified/overrided and incompatible with the original branch. We'll try to fix compatibility problems in the future.
-:::
-## Clone
-Clone [Heriyadi235/VAU320](https://github.com/vrcau/VAU320) into your project directory。
-::: warning
-Do not drag&drop into Unit. Instead, drop/clone the files into your project directory using the File Explorer.
-:::
-## Acquiring Assets
-::: info
-Work in progress
-:::
+1. Import [SaccFlightAndVehicles v1.62](https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.62)
+2. Install these follow dependencies
+    - [YuxiFlightInsturments](https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF): `https://github.com/Heriyadi235/YuxiFlightInstrumentsforSF.git?path=/Packages/com.yuxiaviation.yuxiflightinstruments`
+    - [InariUdon](https://github.com/esnya/InariUdon.git): `https://github.com/esnya/InariUdon.git?path=/Packages/com.nekometer.esnya.inari-udon`
+    - [EsnyaSFAddons](https://github.com/Esnya/EsnyaSFAddons): `https://github.com/esnya/EsnyaSFAddons.git?path=/Packages/com.nekometer.esnya.esnya-sf-addons`
+    - [UdonRadioCommunications & UdonRadioCommunications SaccFlight Integrations](https://github.com/esnya/UdonRadioCommunications): `https://github.com/esnya/UdonRadioCommunications.git?path=/Packages/com.nekometer.esnya.udon-radio-communications` & `https://github.com/esnya/UdonRadioCommunications.git?path=/Packages/com.nekometer.esnya.udon-radio-communications-sf`
+    - [UdonToolkit](https://github.com/orels1/UdonToolkit): `https://github.com/orels1/UdonToolkit.git`
+    - [VUdon-ArrayExtensions](https://github.com/Varneon/VUdon-ArrayExtensions): `https://github.com/Varneon/VUdon-ArrayExtensions.git?path=/Packages/com.varneon.vudon.array-extensions`
+3. Install aircraft using git url: `https://github.com/vrcau/VAU320.git?path=/Packages/com.yuxiaviation.vau320neo/`
+4. Done.
