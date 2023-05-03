@@ -6,14 +6,14 @@
   "author": "VRChat Aerospace University",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^18.15.13",
-    "@types/three": "^0.150.2",
-    "@vue/tsconfig": "^0.2.0",
+    "@types/node": "^18.16.3",
+    "@types/three": "^0.151.0",
+    "@vue/tsconfig": "^0.3.2",
     "jslint": "^0.12.1",
     "sitemap": "^7.1.1",
-    "vitepress": "^1.0.0-alpha.73",
+    "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.45",
-    "vue-tsc": "^1.4.2"
+    "vue-tsc": "^1.6.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
