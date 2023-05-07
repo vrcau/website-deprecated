@@ -6,6 +6,8 @@
 ## 获取航行资料
 - 从我们的 AIS 服务获取 eAIP 等内容: [VAU Aeronautical Information Services](/zh/ais/)  
 - 查看我们的 VAU320neo 指南: [飞行指南概述](/zh/v320neo/guide/overview)
+## KOOK 服务器
+我们的 KOOK 服务器：[Q3cVkF](https://kook.top/Q3cVkF)
 ## 加入 VRChat Group
 在加入我们的 QQ 群组，你也获得了加入我们的 VRChat Group 的资格: [VRChat Aerospace University](https://vrc.group/VAU.3770)
 ::: tip
