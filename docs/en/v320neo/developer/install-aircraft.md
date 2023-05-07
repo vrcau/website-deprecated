@@ -15,5 +15,6 @@ If you are using Git For Windows, you may not need to install Git-LFS.
     - [UdonRadioCommunications & UdonRadioCommunications SaccFlight Integrations](https://github.com/esnya/UdonRadioCommunications): `https://github.com/esnya/UdonRadioCommunications.git?path=/Packages/com.nekometer.esnya.udon-radio-communications` & `https://github.com/esnya/UdonRadioCommunications.git?path=/Packages/com.nekometer.esnya.udon-radio-communications-sf`
     - [UdonToolkit](https://github.com/orels1/UdonToolkit): `https://github.com/orels1/UdonToolkit.git`
     - [VUdon-ArrayExtensions](https://github.com/Varneon/VUdon-ArrayExtensions): `https://github.com/Varneon/VUdon-ArrayExtensions.git?path=/Packages/com.varneon.vudon.array-extensions`
+    - [Virtual-CNS](https://github.com/VirtualAviationJapan/Virtual-CNS): `https://github.com/VirtualAviationJapan/Virtual-CNS.git?pth=/Packages/jp.virtualaviation.virtual-cns`
 3. Install aircraft using git url: `https://github.com/vrcau/VAU320.git?path=/Packages/com.yuxiaviation.vau320neo/`
 4. Done.
