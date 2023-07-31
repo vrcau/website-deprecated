@@ -3,24 +3,23 @@ defineProps<{
     name?: string
     tagline?: string
     actionText?: string
+    text?: string
 }>()
 </script>
 
 <template>
     <div class="home">
-        <video class="background-video" src="/home.webm" muted autoplay loop disablepictureinpicture disableRemotePlayback
-            x-webkit-airplay="deny"></video>
+        <img class="background-image" src="/home/home_test_2.webp" />
         <div class="home-content">
-            <img src="/VAU.svg" />
             <p class="title">{{ name }}</p>
-            <p>{{ tagline }}</p>
+            <p class="tagline">{{ tagline }}</p>
             <a href="./guide/getting-started.html">{{ actionText }}</a>
         </div>
     </div>
 </template>
 
 <style scoped>
-.background-video {
+.background-image {
     position: absolute;
     left: 0;
     top: calc(var(--vp-nav-height) * -1);
@@ -32,15 +31,21 @@ defineProps<{
 
 .home-content {
     position: relative;
+    margin-left: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     line-height: normal;
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: start;
     padding: 0 1rem;
     word-wrap: normal;
     height: calc(100vh - var(--vp-nav-height) - 113px);
+}
+
+.tagline {
+    max-width: 30vw;
+    color: rgba(235, 235, 245, 0.9);
 }
 
 @media (min-width: 768px) {
@@ -52,16 +57,11 @@ defineProps<{
 .home-content .title {
     font-size: 4rem;
     color: #00ffaa;
+    font-weight: 500;
 }
 
 .home-content p {
     font-size: 2rem;
-    color: rgba(255, 255, 245, 0.86);
-}
-
-.home-content img {
-    width: 20rem;
-    margin: 1.5rem auto;
 }
 
 @media (max-width: 960px) {
@@ -77,12 +77,16 @@ defineProps<{
 
 @media (max-width: 830px) {
     .home-content .title {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #00ffaa;
     }
 
     .home-content p {
-        font-size: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .tagline {
+        max-width: 60vw;
     }
 }
 
