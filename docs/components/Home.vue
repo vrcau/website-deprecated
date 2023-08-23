@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
     <div class="home">
-        <img class="background-image" src="/home/home_test_2.webp" />
+        <img class="background-image" src="/home/home.webp" />
         <div class="home-content">
             <p class="title">{{ name }}</p>
             <p class="tagline">{{ tagline }}</p>
@@ -31,7 +31,7 @@ defineProps<{
 
 .home-content {
     position: relative;
-    margin-left: 5rem;
+    margin-left: 3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -51,6 +51,7 @@ defineProps<{
 @media (min-width: 768px) {
     .home-content {
         height: calc(100vh - var(--vp-nav-height) - 241px);
+        margin-left: 5rem;
     }
 }
 
