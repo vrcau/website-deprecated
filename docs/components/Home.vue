@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { VPButton } from 'vitepress/theme';
+
 defineProps<{
     name?: string
     tagline?: string
@@ -13,12 +15,20 @@ defineProps<{
         <div class="home-content">
             <p class="title">{{ name }}</p>
             <p class="tagline">{{ tagline }}</p>
-            <a href="./guide/getting-started.html">{{ actionText }}</a>
+            <VPButton href="./guide/getting-started.html" :text="actionText" size="big" style="margin-top: 1rem;" />
         </div>
     </div>
 </template>
 
 <style scoped>
+.dark .background-image {
+    filter: brightness(70%);
+}
+
+.dark .background-image {
+    filter: brightness(70%);
+}
+
 .background-image {
     position: absolute;
     left: 0;
@@ -26,7 +36,6 @@ defineProps<{
     height: 100vh;
     width: 100vw;
     object-fit: cover;
-    filter: brightness(70%);
 }
 
 .home-content {
@@ -57,7 +66,7 @@ defineProps<{
 
 .home-content .title {
     font-size: 4rem;
-    color: #00ffaa;
+    color: var(--vp-c-brand-1);
     font-weight: 500;
 }
 
@@ -68,7 +77,7 @@ defineProps<{
 @media (max-width: 960px) {
     .home-content .title {
         font-size: 3rem;
-        color: #00ffaa;
+        color: var(--vp-c-brand-1);
     }
 
     .home-content p {
@@ -79,7 +88,7 @@ defineProps<{
 @media (max-width: 830px) {
     .home-content .title {
         font-size: 3rem;
-        color: #00ffaa;
+        color: var(--vp-c-brand-1);
     }
 
     .home-content p {
@@ -89,42 +98,5 @@ defineProps<{
     .tagline {
         max-width: 60vw;
     }
-}
-
-.home-content a {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: #00ffaa;
-
-    display: inline-block;
-    border: 1px solid transparent;
-    text-align: center;
-    font-weight: 600;
-    white-space: nowrap;
-    transition: color 0.25s, border-color 0.25s, background-color 0.25s;
-
-    border-radius: 24px;
-    padding: 0 24px;
-    line-height: 46px;
-    font-size: 16px;
-
-    border-color: var(--vp-button-brand-border);
-    color: var(--vp-button-brand-text);
-    background-color: var(--vp-button-brand-bg);
-
-    transition: color 0.1s, border-color 0.1s, background-color 0.1s;
-}
-
-.home-content a:hover {
-    border-color: var(--vp-button-brand-hover-border);
-    color: var(--vp-button-brand-hover-text);
-    background-color: var(--vp-button-brand-hover-bg);
-}
-
-.home-content a:active {
-    border-color: var(--vp-button-brand-active-border);
-    color: var(--vp-button-brand-active-text);
-    background-color: var(--vp-button-brand-active-bg);
 }
 </style>

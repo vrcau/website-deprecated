@@ -2,18 +2,17 @@
   "name": "vrc-aerospace-university-web",
   "version": "1.0.0",
   "description": "VRChat Aerospace University Website",
-  "main": "index.js",
   "author": "VRChat Aerospace University",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "@types/node": "^20.4.2",
-    "@types/three": "^0.154.0",
+    "@types/node": "^20.5.7",
+    "@types/three": "^0.155.1",
     "@vue/tsconfig": "^0.4.0",
-    "jslint": "^0.12.1",
     "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-beta.5",
+    "vitepress": "1.0.0-rc.8",
     "vue": "^3.2.45",
-    "vue-tsc": "^1.8.5"
+    "vue-tsc": "^1.8.8"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
