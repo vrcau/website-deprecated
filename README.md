@@ -1,4 +1,7 @@
 # VRChat Aerospace University Web
+
+> 已弃用
+
 基于 VitePress 的 VRChat Aerospace University 网页
 ## 贡献
 > 首先请确保你已安装版本 > v14 的 [Node.js](https://nodejs.org/) 和 `yarn` 包管理器
